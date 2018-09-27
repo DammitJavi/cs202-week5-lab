@@ -42,8 +42,7 @@
             console.log(i,v);
             var cell = $("<div>");
             cell.addClass("col-sm");
-            cell.html(v.tow_date + "<br>" + v.make + "<br>" + v.plate);
-            
+            cell.html("Tow Date: " + v.tow_date + "<br>" + "Model Make: "+ v.make + "<br>"+ "Plate #: "+ v.plate + "<br>" + "Style: "+ v.style + "<br>" + "State: " + v.state+ "<br>" + "Color: " + v.color+ "<br>" + "Tow Address: " + v.towed_to_address+ "<br>" + "Tow Facility: " + v.tow_facility_phone+ "<br>" + "Inventory #: " + v.inventory_number);
             row.append(cell);
             
             if (row.find("div").length == 3) {

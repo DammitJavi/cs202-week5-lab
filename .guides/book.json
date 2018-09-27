@@ -1,0 +1,17 @@
+{
+ "name": "cs202-week5-lab",
+ "children": [
+  {
+   "title": "Page 1",
+   "id": "1900e935-f71a-a07c-61c6-e6d0679812aa",
+   "pageId": "1900e935-f71a-a07c-61c6-e6d0679812aa",
+   "type": "page"
+  },
+  {
+   "title": "Page 2",
+   "id": "3ce8848c-efdd-f029-12a4-7028349239d9",
+   "pageId": "3ce8848c-efdd-f029-12a4-7028349239d9",
+   "type": "page"
+  }
+ ]
+}
